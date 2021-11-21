@@ -11,8 +11,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "client_h3": {
+    "Name": {
       "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
