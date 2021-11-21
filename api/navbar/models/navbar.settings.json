@@ -10,34 +10,83 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "Navbar_HomeLink": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Navbar_ClientsLink": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "NavLink_Soultion": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "NavLink_Soultion_AdminBack": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "NavLink_Soultion_ClientPortal": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "NavLink_Soultion_PartnerPortal": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "NavLink_Soultion_WebsiteDevelopment": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Navbar_AboutLink": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Navbar_ContactLink": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Navbar_Img": {
       "model": "file",
@@ -49,7 +98,11 @@
       ],
       "plugin": "upload",
       "required": false,
-      "pluginOptions": {}
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Navbar_logoWhite": {
       "model": "file",
@@ -61,7 +114,11 @@
       ],
       "plugin": "upload",
       "required": false,
-      "pluginOptions": {}
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
