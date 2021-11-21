@@ -111,6 +111,14 @@
         }
       },
       "component": "shared.submit-button"
+    },
+    "gotQuestion": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
