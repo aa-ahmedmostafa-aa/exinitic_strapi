@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "clients_pages",
+  "info": {
+    "name": "ClientsPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "introPartOne": {
+      "type": "text"
+    },
+    "introPartTwo": {
+      "type": "text"
+    },
+    "btnBook": {
+      "type": "string"
+    }
+  }
+}
