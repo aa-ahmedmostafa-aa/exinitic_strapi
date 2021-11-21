@@ -343,14 +343,6 @@
           "localized": true
         }
       }
-    },
-    "ahmedaaa": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
     }
   }
 }

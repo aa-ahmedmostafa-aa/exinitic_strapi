@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "test_as",
   "info": {
-    "name": "test_a"
+    "name": "test_a",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,9 +11,5 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {
-    "first_title": {
-      "type": "string"
-    }
-  }
+  "attributes": {}
 }
