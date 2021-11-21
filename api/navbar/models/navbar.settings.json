@@ -15,11 +15,53 @@
     "Navbar_HomeLink": {
       "type": "string"
     },
+    "Navbar_ClientsLink": {
+      "type": "string"
+    },
     "NavLink_Soultion": {
       "type": "string"
     },
-    "aaa": {
+    "NavLink_Soultion_AdminBack": {
       "type": "string"
+    },
+    "NavLink_Soultion_ClientPortal": {
+      "type": "string"
+    },
+    "NavLink_Soultion_PartnerPortal": {
+      "type": "string"
+    },
+    "NavLink_Soultion_WebsiteDevelopment": {
+      "type": "string"
+    },
+    "Navbar_AboutLink": {
+      "type": "string"
+    },
+    "Navbar_ContactLink": {
+      "type": "string"
+    },
+    "Navbar_Img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Navbar_logoWhite": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
