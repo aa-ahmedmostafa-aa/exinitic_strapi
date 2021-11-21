@@ -1,8 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "clients_pages",
+  "kind": "collectionType",
+  "collectionName": "solutions",
   "info": {
-    "name": "ClientsPage",
+    "name": "Solutions",
     "description": ""
   },
   "options": {
@@ -16,37 +16,44 @@
     }
   },
   "attributes": {
-    "Header": {
-      "type": "string",
+    "title_span": {
       "pluginOptions": {
         "i18n": {
           "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
         }
       }
     },
-    "introPartOne": {
-      "type": "text",
+    "redirectionUrl": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
-    },
-    "introPartTwo": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "btnBook": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      },
+      "type": "string"
     }
   }
 }
