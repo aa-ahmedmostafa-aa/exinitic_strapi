@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_button_for_bookings",
+  "info": {
+    "name": "ButtonForBooking",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

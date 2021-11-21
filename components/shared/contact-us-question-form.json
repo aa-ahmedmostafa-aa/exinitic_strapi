@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_contact_us_question_forms",
+  "info": {
+    "name": "ContactUsQuestionForm",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phoneNo": {
+      "type": "string"
+    },
+    "selectCountry": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

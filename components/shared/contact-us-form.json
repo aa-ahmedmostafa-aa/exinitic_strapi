@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_contact_us_forms",
+  "info": {
+    "name": "ContactUsForm",
+    "icon": "comment-alt"
+  },
+  "options": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phoneNo": {
+      "type": "string"
+    },
+    "subscribeText": {
+      "type": "string"
+    }
+  }
+}
