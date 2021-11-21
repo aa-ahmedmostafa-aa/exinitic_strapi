@@ -1,9 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "clients",
+  "kind": "singleType",
+  "collectionName": "client_pages",
   "info": {
-    "name": "Clients",
-    "description": ""
+    "name": "ClientPage"
   },
   "options": {
     "increments": true,
@@ -16,35 +15,37 @@
     }
   },
   "attributes": {
-    "Name": {
-      "type": "string",
+    "header": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
     },
-    "Description": {
-      "type": "text",
+    "introPartOne": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "text"
     },
-    "Logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
+    "introPartTwo": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "text"
+    },
+    "btnBook": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
