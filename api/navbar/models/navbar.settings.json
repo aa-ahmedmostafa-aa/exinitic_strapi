@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbars",
+  "info": {
+    "name": "Navbar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Navbar_HomeLink": {
+      "type": "string"
+    }
+  }
+}
