@@ -7,22 +7,6 @@
       "config": {
         "policies": []
       }
-    },
-    {
-      "method": "PUT",
-      "path": "/client-page",
-      "handler": "client-page.update",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "DELETE",
-      "path": "/client-page",
-      "handler": "client-page.delete",
-      "config": {
-        "policies": []
-      }
     }
   ]
 }
