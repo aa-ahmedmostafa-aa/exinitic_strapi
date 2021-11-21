@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_as",
+  "info": {
+    "name": "test_a",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
