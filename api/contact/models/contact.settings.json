@@ -119,6 +119,9 @@
         }
       },
       "type": "string"
+    },
+    "select_countries": {
+      "collection": "select-countries"
     }
   }
 }
