@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "client_pages",
   "info": {
-    "name": "ClientPage"
+    "name": "ClientPage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -46,6 +47,9 @@
         }
       },
       "type": "string"
+    },
+    "clients": {
+      "collection": "clients"
     }
   }
 }
