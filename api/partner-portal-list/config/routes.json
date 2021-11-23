@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/partner-portal-lists",
+      "handler": "partner-portal-list.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/partner-portal-lists/count",
+      "handler": "partner-portal-list.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/partner-portal-lists/:id",
+      "handler": "partner-portal-list.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/partner-portal-lists",
+      "handler": "partner-portal-list.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/partner-portal-lists/:id",
+      "handler": "partner-portal-list.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/partner-portal-lists/:id",
+      "handler": "partner-portal-list.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

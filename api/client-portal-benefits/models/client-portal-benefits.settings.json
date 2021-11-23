@@ -1,9 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "client_pages",
+  "kind": "collectionType",
+  "collectionName": "client_portal_benefits",
   "info": {
-    "name": "ClientPage",
-    "description": ""
+    "name": "ClientPortalBenefits"
   },
   "options": {
     "increments": true,
@@ -16,7 +15,7 @@
     }
   },
   "attributes": {
-    "header": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -24,23 +23,7 @@
       },
       "type": "string"
     },
-    "introPartOne": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
-    "introPartTwo": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
-    "btnBook": {
+    "benefit": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -48,8 +31,21 @@
       },
       "type": "string"
     },
-    "clients": {
-      "collection": "clients"
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

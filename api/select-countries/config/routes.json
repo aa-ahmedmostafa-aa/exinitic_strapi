@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/select-countries",
+      "handler": "select-countries.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/select-countries/count",
+      "handler": "select-countries.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/select-countries/:id",
+      "handler": "select-countries.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/select-countries",
+      "handler": "select-countries.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/select-countries/:id",
+      "handler": "select-countries.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/select-countries/:id",
+      "handler": "select-countries.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

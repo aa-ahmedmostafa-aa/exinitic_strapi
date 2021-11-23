@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "contacts",
+  "collectionName": "partner_portal_pages",
   "info": {
-    "name": "Contact",
+    "name": "PartnerPortalPage",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "addressPartOneA": {
+    "h1_A": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -24,7 +24,7 @@
       },
       "type": "string"
     },
-    "addressPartTwoA": {
+    "h1_B": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -32,7 +32,47 @@
       },
       "type": "string"
     },
-    "ButtonForBooking": {
+    "h1_features": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "p1": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "p2": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "p3": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "p4": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "BookButton": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -42,86 +82,11 @@
       },
       "component": "shared.button-for-booking"
     },
-    "ContactUsForm": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.contact-us-form"
+    "partner_portal_lists": {
+      "collection": "partner-portal-list"
     },
-    "paragraphOne": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "paragraphTwo": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "ContactUsQuestionForm": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.contact-us-question-form"
-    },
-    "addressPartOneB": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "addressPartTwoB": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "contactUs": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "SubmitButton": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.submit-button"
-    },
-    "gotQuestion": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "select_countries": {
-      "collection": "select-countries"
+    "partner_portal_features": {
+      "collection": "partner-portal-features"
     }
   }
 }
