@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/admin-crm",
+      "handler": "admin-crm.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/admin-crm",
+      "handler": "admin-crm.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin-crm",
+      "handler": "admin-crm.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
