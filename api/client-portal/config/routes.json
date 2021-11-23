@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/client-portal",
+      "handler": "client-portal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/client-portal",
+      "handler": "client-portal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/client-portal",
+      "handler": "client-portal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

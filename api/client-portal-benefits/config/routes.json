@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/client-portal-benefits",
+      "handler": "client-portal-benefits.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/client-portal-benefits/count",
+      "handler": "client-portal-benefits.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/client-portal-benefits/:id",
+      "handler": "client-portal-benefits.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/client-portal-benefits",
+      "handler": "client-portal-benefits.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/client-portal-benefits/:id",
+      "handler": "client-portal-benefits.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/client-portal-benefits/:id",
+      "handler": "client-portal-benefits.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
