@@ -167,6 +167,14 @@
         }
       },
       "type": "string"
+    },
+    "testing": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
